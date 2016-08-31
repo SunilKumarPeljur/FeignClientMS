@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: feign-client-ms
+  cloud:
+    config:
+      uri: http://localhost:9190
+      
+server:
+  port: 9199
